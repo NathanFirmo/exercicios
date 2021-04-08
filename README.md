@@ -1,6 +1,6 @@
  # **Exercícios**
 Esse é um repositório para guardar exercícios de várias linguagens e diferentes dificuldades.
-> A ideia é guadar aqui, tudo o que eu for aprendendo,
+> A ideia é guardar aqui, tudo o que eu for aprendendo,
 > e poder revisitar sempre que tiver alguma dúvida ou
 > estiver criando uma nova aplicação.
 
