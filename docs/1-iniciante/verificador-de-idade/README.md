@@ -11,7 +11,7 @@
    
 
 ***
-:computer: Você pode ver a aplicação funcionando [aqui](https://nathanfirmo.github.io/verificador-de-idade/).
+:computer: Você pode ver a aplicação funcionando [aqui](https://nathanfirmo.github.io/exercicios/1-iniciante/verificador-de-idade/).
 
  ***
  ![image](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white) 
