@@ -20,7 +20,7 @@ O usuário **não** pode digitar:
    
 
 ***
-:computer: Você pode ver a aplicação funcionando [aqui](https://nathanfirmo.github.io/analisador-de-numeros/). 
+:computer: Você pode ver a aplicação funcionando [aqui](https://nathanfirmo.github.io/exercicios/1-iniciante/analisador-de-numeros/). 
  ***
  ![image](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white) 
  
