@@ -1,10 +1,8 @@
  # **Exercícios**
 Esse é um repositório para guardar exercícios de várias linguagens e diferentes dificuldades.
-> A ideia é guardar aqui, tudo o que eu for aprendendo,
-> e poder revisitar sempre que tiver alguma dúvida ou
-> estiver criando uma nova aplicação.
+A ideia é guardar aqui, tudo o que eu for aprendendo, e poder revisitar sempre que tiver alguma dúvida ou estiver criando uma nova aplicação.
 
- ## *Pasta "docs"*
+ ## *Pasta [docs](https://github.com/NathanFirmo/exercicios/docs/)
  Aqui ficam as coisas de *HTML, CSS e JavaScript*.
 
  
