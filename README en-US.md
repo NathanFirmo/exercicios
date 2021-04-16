@@ -1,17 +1,17 @@
  # **Exercícios**
 
- - See [in English](./README-en-US.md).
+ - Ver em [Português](./README.md).
  
-Esse é um repositório para guardar exercícios de várias linguagens e diferentes dificuldades.
-A ideia é guardar aqui, tudo o que eu for aprendendo, e poder revisitar sempre que tiver alguma dúvida ou estiver criando uma nova aplicação.
+This is a repository for storing exercises in different languages and different difficulties.
+The idea is to keep here, everything I learn, and to be able to revisit whenever I have any questions or are creating a new application.
 
- ## Pasta *[docs](https://github.com/NathanFirmo/exercicios/docs/)*
- Aqui ficam as coisas de *HTML, CSS e JavaScript*.
+ ## *[docs](https://github.com/NathanFirmo/exercicios/docs/)* folder 
+Here are the front-end things, like *HTML, CSS e JavaScript*.
 
- ## Pasta *[Node.js](https://github.com/NathanFirmo/exercicios/tree/main/Node.js/)*
- Aqui ficam as coisas de *back-end em Node.js*. 
+ ## *[Node.js](https://github.com/NathanFirmo/exercicios/tree/main/Node.js/)* folder 
+Here are the *back-end things*, I'm using *Node.js*. 
 
- ## Linguagens da aplicação
+ ## Aplication Languages
  
 ![image](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) 
 ![image](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -20,6 +20,6 @@ A ideia é guardar aqui, tudo o que eu for aprendendo, e poder revisitar sempre 
 ***
  ![image](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white) 
  
- Visite o meu [LinkedIn](https://www.linkedin.com/in/nathan-de-souza-silva-firmo/). 
+ See my [LinkedIn](https://www.linkedin.com/in/nathan-de-souza-silva-firmo/). 
 
 

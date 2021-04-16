@@ -1,4 +1,7 @@
 # **Site bom dia**
+
+- See [in English](./README-en-US.md).
+
  Esse foi meu primeiro site do curso de JavaScript e meu primeiro repositório :)
  ## Descrição
  Nessa aplicação, o usuário vê a hora atual do sistema (sem os minutos) e de acordo com ela, o JavaScript muda o estilo do site e as imagens.
