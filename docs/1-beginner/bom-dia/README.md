@@ -1,6 +1,6 @@
 # **Site bom dia**
 
-- See [in English](./README-en-US.md).
+- See in [English 🇬🇧](./README-en-US.md).
 
  Esse foi meu primeiro site do curso de JavaScript e meu primeiro repositório :)
  ## Descrição
