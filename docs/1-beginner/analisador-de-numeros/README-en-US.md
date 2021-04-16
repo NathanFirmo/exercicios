@@ -1,6 +1,6 @@
-# ** Number analyzer **
+# *Number analyzer*
 
-- Ver em [Português](./README.md).
+- Ver em [Português 🇧🇷](./README.md).
 
 ## Description
 This is an application to study the manipulation of ** arrays **, in which the user types the values and can see:
