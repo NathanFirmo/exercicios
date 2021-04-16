@@ -1,6 +1,6 @@
 # **Good morning site**
 
-- Ver em [Português](./README.md).
+- Ver em [Português 🇧🇷](./README.md).
 
 This was my first JavaScript site and my first repository :)
 
