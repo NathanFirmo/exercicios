@@ -1,6 +1,6 @@
 # **Analisador de números**
 
-- See [in English](./README-en-US.md).
+- See in [English 🇬🇧](./README-en-US.md).
 
 ## Descrição
 Essa é uma aplicação para estudar a manipulação de **arrays**, na qual o usuário digita os valores e pode ver:
