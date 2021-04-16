@@ -1,6 +1,6 @@
  # **Exercícios**
 
- - Ver em [Português](./README.md).
+- Ver em [Português 🇧🇷](./README.md).
  
 This is a repository for storing exercises in different languages and different difficulties.
 The idea is to keep here, everything I learn, and to be able to revisit whenever I have any questions or are creating a new application.
