@@ -1,6 +1,6 @@
 # **Verificador de Idade**
 
-- Ver em [Português](./README.md).
+- Ver em [Português 🇧🇷](./README.md).
 
 This is a small application to study ** simple forms ** and ** images **.
   In it the user types the year and gender and the site returns with an image and age.
