@@ -2,6 +2,8 @@
 
  - See in [English 🇬🇧](./README-en-US.md).
 
+![text (2)](https://user-images.githubusercontent.com/79997705/120575829-21b8d880-c3f8-11eb-80fd-f5bc42c9d01b.png)
+
 Esse é um repositório para guardar exercícios de várias linguagens e diferentes dificuldades.
 A ideia é guardar aqui, tudo o que eu for aprendendo, e poder revisitar sempre que tiver alguma dúvida ou estiver criando uma nova aplicação.
 
