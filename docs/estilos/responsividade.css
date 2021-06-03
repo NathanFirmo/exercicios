@@ -1,0 +1,28 @@
+/*
+Layout Fixo - px
+
+Layout Fluido - %, auto, vh(viewport height), vw(viewport width)
+
+
+---------- Temos algumas ideias úteis para utilizar em nossos textos ----------------
+Por exemplo, ir setar o parametro font-size de todo o html para 62,5%, isso fará o Root valer 10px.
+Em seguida, em cada elemento, nós utilizaremos o rem para o font size. Com essas configurações ficará mais fácil mexer 
+nos media queries. Basta que nós mudemos a porcenragem da fonte do Root.
+
+
+*/
+
+/*
+Ideias de código para usar na responsividade
+Estou meio perdido rsrs
+
+
+
+
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Roboto:wght@100&display=swap');
+
+html{
+
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+
+<body>
+
+    <section>
+        <form action="">
+            <fieldset>
+                <legend>Contato</legend>
+                <label for="name">nome</label>
+                <input type="text" name="" id="name">
+            </fieldset>
+        </form>
+        <input type="text" list="opcoes" placeholder="escolha uma opção">
+        <datalist id="opcoes">
+            <option>a</option>
+            <option>b</option>
+            <option>c</option>
+        </datalist>
+        </input>
+    </section>
+</body>
+
+</html>
+
+<!--
+Atributos básicos
+- action (aqui vai o endereço)
+- method (aqui vai o verbo http)
+    
+Método GET vai pela url
+Método POST vai de outra forma
+
+<fieldset>
+    - agrupamento de campos
+    - mesmo propósito
+    -semântico
+    -acessibilidade
+    Atributos especiais
+    -disabled
+        -desabilita todos os elementos internos
+        -não serão ennviados ao submeter o formulário
+    -form
+        -o id de um formulário ao qual esse fieldset pertence
+        -não precisa estar dentro do formulário
+    -name
+        -nome do grupo
+
+    <legend>
+    -nome do agrupamento
+    -primeiro elemento dentro do fieldset
+
+    <label>
+        -associar e identificar uma ou mais Tags de entrada de dados
+        -acessibilidade
+        -você pode clicar para mudar o foco da entrada de dados
+    Atributos
+    -for para fazer a conexão entre este label e a tag de entrada de dados
+    - é feita via id do input
+    -só funciona com elementos específicos
+    -button, input (not hidden), meter, output, progress, select, textarea.
+
+    <button>
+    Atributos comuns
+        -submit
+        -reset
+        -button
+    -autofocus
+    -disabled
+    -name
+    -value
+    -form
+
+    <datalist>
+    - Lista de valores como sugestão a uma tag input
+    - Valores sugestivos e não obrigatórios
+    -Usuário poderá selecionar um dos valores ou colocar um valor diferente.
+
+    inputs suportados
+    - text, search, url, tel, email,date, month, week,time,datetime-local, numer, range e color
+
+    <input>
+    -um dos mais usados em formulários
+    -aceita os mais diversos tipos de dados
+    
+    Atributos
+    -type
+    -name
+    -id
+    -autocomplete
+    - disable
+    - value
+    - readonly
+    - form (vai linkar o input com o id do formulário)
+    - name
+    - required (significa que é obrigatório)
+    - placeholder (password, search, tel, text, url)
+
+     type password
+    - minlength/maxlength
+    -size
+    - pattern
+        * pattern="[0-9a-zA-Z]{4,8}"
+    - title (ajuda o usuário a entender o que ele precisa preencher no caso de um erro)
+    -imputmode (pode ser usado para mostrar só o tecla do numérico no celular)
+
+    type email
+    - pattern (pode ser usado para aceitar apenas emails de determinado domínio)
+
+    type file
+    - acept (descreve os tipos de arquivos que serão aceitos)
+    - # envio dos arquivos -> Para o evnvio dos arquivos o método deverá ser POST e o enctype deve se "multipart/form-data"
+
+    type-checkbox
+    - checked (padrão 'on')
+    - unchecked (padrão 'off')
+
+    type hidden
+    - não fica visível ao usuário na tela
+
+    type radio
+    - checked (é o campo que foi marcado)
+    - value (é o texto que ele vai conter)
+
+    type test-area
+    - texto de mais de uma linha
+
+
+    <select> e <option>
+    - caixinha de seleção
+        <optgroup>
+        - ele agrupa os itens da seleção semelhantemente a uma lita (basta usar o atributo 'label')
+    
+    type search
+    - serve para buscas
+    # atributos
+    - list/datalist
+    -pattern
+    -aria-label (é um label de acessibilidade escondido, para o caso do type search)
+
+    type range
+    - é um controle slider
+
+    type dade
+    - Ainda não tem um suporte tão abrangente
+    -->

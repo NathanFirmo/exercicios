@@ -1,0 +1,129 @@
+/*
+GRID OU FLEXBOX?
+
+Grid: Duas dimensões (colunas e linhas)
+Flexbox: Uma única dimensão (coluna ou linha)
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Roboto:wght@100&display=swap');
+
+body {
+    padding: 10px;
+    font: normal 1.2em Nunito Sans, sans-serif;    
+    background-color: #7159c1;
+}
+
+main {
+    background-color: #af2da9;
+    border-radius: 10px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 5px 5px 5px #0000006b;
+}
+p{
+    font: normal 0.9em Nunito Sans, sans-serif;
+}
+dl{
+    font: normal 0.9em Nunito Sans, sans-serif;
+}
+h1, footer{
+    text-align: center;
+    font: normal 1.3em Arial, sans-serif;
+    text-shadow: 2px 2px 2px #00000065;
+    color: white;
+}
+footer{
+    font-size: 1em;
+}
+h2{
+    text-align: center;
+    font: normal 1.1em Arial, sans-serif;
+    color: white;
+}
+
+h3{
+    text-align: center;
+    font: normal 1em Arial, sans-serif;
+    color: white;
+}
+section#container-1 {
+    display: grid;
+    padding: 10px;
+    margin: 0px 30px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    grid-template-areas: "header header"
+        "div1 div2"
+        "div3 div3"
+        "footer footer";
+
+}
+
+section#texto-1, section#texto-2 {
+    margin: 10px 50px;
+    text-align: justify;
+    text-indent: 30px;
+    color: #fff;
+}
+
+
+section#container-2{
+display: grid;
+grid-template-rows: 10px 10px 10px;
+grid-template-columns: 10px 10px 10px;
+gap: 5px;
+
+justify-content: center;
+align-content: center;
+}
+
+section#container-2 > div{
+    background-color: #389fdb;
+}
+
+
+header {
+    background-color: #fff;
+    text-align: center;
+    grid-area: header;
+    border-radius: 10px;
+}
+
+
+div#div1 {
+    background-color: #97ce18;
+    color: white;
+    text-align: center;
+    grid-area: div1;
+    border-radius: 10px;
+}
+
+div#div2 {
+    background-color: #2e4405;
+    color: white;
+    text-align: center;
+    grid-area: div2;
+    border-radius: 10px;
+}
+
+div#div3 {
+    background-color: #c52525;
+    color: white;
+    text-align: center;
+    grid-area: div3;
+    border-radius: 10px;
+}
+
+div#div4 {
+    background-color: #16f7a1;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    grid-area: footer;
+    border-radius: 10px;
+}
+
+a{
+    color: white;
+}

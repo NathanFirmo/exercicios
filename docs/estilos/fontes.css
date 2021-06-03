@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Roboto:wght@100&display=swap');
+@font-face {
+    font-family: 'teste';
+    src: url('fonts/google-sans.ttf') format('truetype');
+}
+
+
+
+body{
+    font: normal 16px Arial;
+    background-color: rgb(77, 209, 209);
+}
+header{
+    text-align: center;
+}
+section{
+    font: normal 1.1em Nunito Sans;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #0000006b;
+    background-color: blanchedalmond;
+    max-width: 800px;
+    margin: auto;
+}
+h1{
+    color: white;
+    color: white;
+    text-shadow: 2px 2px 2px #00000038;
+    font: bold 2em Arial;
+}
+h2{
+    color: #000000;
+    font: bold 1.5em Roboto;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px #00000038;
+    font: bold 1em Arial;
+}
+p#fonte{
+    font: normal 1em;
+}
+
+/*
+text-indent: 10px; Esse parâmetro indenta o início do parágrafo.
+*/
+
+/*
+TIPOS DE FORMAT()
+truetype .ttf
+opentype .otf
+embedded-opentype
+truetype-aat (Apple Advanced Tipography)
+Svg
+*/

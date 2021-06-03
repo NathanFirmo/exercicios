@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores e Medidas</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+
+<body>
+    <main>
+        <section>
+            <a href="index.html" rel="prev">voltar</a>
+
+            <h2>Elementos Relativos</h2>
+            <dl>
+                <dt>em</dt>
+                <dd>Relativo ao tamanho da fonte do pai.</dd>
+                <dt>rem</dt>
+                <dd>Relativo ao tamanho da fonte do root.</dd>
+                <dt>vw</dt>
+                <dd>Relativo à 1% da largura da viewport.</dd>
+                <dt>vh</dt>
+                <dd>Relativo à 1% da altura da viewport.</dd>
+                <dt>%</dt>
+                <dd>Relativo ao elemento.</dd>
+            </dl>
+
+            <h2>Funções</h2>
+            <dl>
+                <dt>Calc</dt>
+                <dd>calc (100% - 40px) Pode ser usada para calcular 100% da vw e retirar 40px.</dd>
+            </dl>
+
+
+            <h2></h2>
+            <dl>
+                <dt>Element selector</dt>
+                <dd>Busca um elemento dentro do HTML, como &lt;h1&gt;.</dd>
+                <dt>Id selector</dt>
+                <dd>Busca pelo id, sendo representado pela '#'.</dd>
+                <dt>Class selector</dt>
+                <dd>Seleciona pela classe, usando o '.'.</dd>
+                <dt>Attribute selector</dt>
+                <dd>Busca um elemento que tem determinado atributo. É representado por [].</dd>
+            </dl>
+            <h2>Combinators</h2>
+            <dl>
+                <dt>Descendent Combinator</dt>
+                <dd>Busca um elemento que é descendente de outro, é representado pelo espaço ' '.</dd>
+                <dt>Child Combinator</dt>
+                <dd>Seleciona apenas o elemento que é filho direto do pai. É representado pelo "&gt;" </dd>
+                <dt>Sibling Combinator</dt>
+                <dd>Seleciona o irmão direto (primeiro irmão) na hierarquia. Representado pelo '+'</dd>
+                <dt>General Sibling Combinator</dt>
+                <dd>Seleciona todos os elementos irmãos. É representado pelo '~'</dd>
+            </dl>
+            <h2>Pseudo Class</h2>
+            <p>Começam com dois pontos e representam um elemento que está em um estado específico.</p>
+            <dl>
+                <dt>nth-of-type</dt>
+                <dd>Pega dermidado elemento de um tipo, por exemplo: 'p:nth-of-type(1)', que pega o primeiro elemento
+                    'p'</dd>
+                <dt>nth-of-child</dt>
+                <dd>Pega dermidado elemento filho do item principal. <br> Outra coisa bem legal é que podemos colocar
+                    'odd' ou 'even' ao invés do número.</dd>
+                <dt>hover e focus</dt>
+                <dd>O primeiro é quando o mouse passa por cima e o segundo é quando um input está em foco.</dd>
+            </dl>
+            <h2>Pseudo Element</h2>
+            <dl>
+                <dt>before</dt>
+                <dd>Coloca um item antes de determinado conteúdo. Obs.: Sempre requer a propriedade 'content'.</dd>
+                <dt>after</dt>
+                <dd>Coloca um item depois de determinado conteúdo. Obs.: Sempre requer a propriedade 'content'.</dd>
+                <dt>first line</dt>
+                <dd>Pega somente a primeira linha.</dd>
+            </dl>
+        </section>
+    </main>
+</body>
+
+</html>

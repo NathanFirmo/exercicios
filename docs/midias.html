@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+
+<body>
+
+    <section>
+        <header>
+            <h1>Vamos testar mídias no HTML</h1>
+        </header>
+        <a href="index.html" rel="next">home</a>
+        <h2>Vamos começar com as imagens</h2>
+        <picture>
+            <p>Aqui temos um exemplo de imagem adaptável no HTML:</p>
+            <source class="img" media="(max-width: 750px)" srcset="img/foto-p.png" type="image/png">
+            <source class="img" media="(max-width: 1050px)" srcset="img/foto-m.png" type="image/png">
+            <img class="img" src="img/foto-g.png" alt="imagem flexível">
+            <!--Essa é a imagem principal, imediatamente acima dela as imagens vão decrescendo em tamanho-->
+        </picture>
+        <h2>Agora vamos testar áudios no HTML</h2>
+        <!--
+            podemos adicionar sons de uma única fonte...
+            <audio src="audio/Away - Patrick Patrikios.mp3" controls></audio>
+        -->
+
+        <div id="audio">
+            <audio preload="metadata" controls>
+                <!--O parâmetro preload configura se o arquivo será carregado junto com o site. Por padrão ele vem como "auto", que carregam automaticamente, ma consomem muita banda. O ideal é metadata-->
+                <source src="audio/Away - Patrick Patrikios.mp3" type="audio/mp3">
+                <source src="audio/Away - Patrick Patrikios.wav" type="audio/wav">
+                <!--Evitar usar wav pq ele é mt pesado-->>
+                <source src="audio/Away - Patrick Patrikios.ogg" type="audio/ogg">
+                <p>Ops! Seu audio não pôde ser carregado. Baixe <a href="audio/Away - Patrick Patrikios.mp3">Aqui</a>.
+                </p>
+        </div>
+
+        </audio>
+        <h2>Logo aqui abaixo, podemos ver um vídeo:</h2>
+        <p style="text-align:center">Esse é um vídeo hospedado localmente.</p>
+        <div class="video">
+            <video controls preload="metadata" width="200px">
+                <!--Para colocar a "Thumb", use o parâmetro 'poster=""'-->
+                <source src="video/video.mp4" type="video/mp4">
+                <p>Ops! Seu navegador não tem compatibilidade com Mp4!</p>
+            </video>
+        </div>
+        <h2>Agora, vamos ver um vídeo do youtube:</h2>
+        <p style="text-align:center">Esse vídeo abaixo está vindo direto do YouTube.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/MuE7vprr37c" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </section>
+    <footer>
+        <p>&copy; Nathan Firmo</p>
+    </footer>
+</body>
+
+</html>
