@@ -2,7 +2,11 @@
 
  - See in [English 🇬🇧](./README-en-US.md).
 
-![text (2)](https://user-images.githubusercontent.com/79997705/120575829-21b8d880-c3f8-11eb-80fd-f5bc42c9d01b.png)
+<div align="center">
+ <img src="https://user-images.githubusercontent.com/79997705/120575829-21b8d880-c3f8-11eb-80fd-f5bc42c9d01b.png" />
+</div>
+
+</br>
 
 Esse é um repositório para guardar exercícios de várias linguagens e diferentes dificuldades.
 A ideia é guardar aqui, tudo o que eu for aprendendo, e poder revisitar sempre que tiver alguma dúvida ou estiver criando uma nova aplicação.
@@ -12,7 +16,9 @@ A ideia é guardar aqui, tudo o que eu for aprendendo, e poder revisitar sempre 
 ![image](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) 
 ![image](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![image](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-   
+![image](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)   
+![image](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+  
 ***
  ![image](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white) 
  
