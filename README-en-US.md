@@ -5,12 +5,6 @@
 This is a repository for storing exercises in different languages and different difficulties.
 The idea is to keep here, everything I learn, and to be able to revisit whenever I have any questions or are creating a new application.
 
- ## *[docs](https://github.com/NathanFirmo/exercicios/docs/)* folder 
-Here are the front-end things, like *HTML, CSS e JavaScript*.
-
- ## *[Node.js](https://github.com/NathanFirmo/exercicios/tree/main/Node.js/)* folder 
-Here are the *back-end things*, I'm using *Node.js*. 
-
  ## Aplication Languages
  
 ![image](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) 
