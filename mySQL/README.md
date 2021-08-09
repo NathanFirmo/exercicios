@@ -79,7 +79,19 @@
 
  `UPDATE`
  
+ ## Criação de tabelas e bancos de dados
  
+ ```
+Create database Clube
+default character set utf8
+default collate utf8_general_ci;
+ ```
+ 
+ ```
+ create table tableX(
+...
+)default charset = utf8;
+ ```
  
  ***
  ![image](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white) 
