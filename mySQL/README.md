@@ -82,7 +82,7 @@
  ## Criação de tabelas e bancos de dados
  
  ```
-Create database Clube
+Create database databaseX
 default character set utf8
 default collate utf8_general_ci;
  ```
