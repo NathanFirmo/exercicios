@@ -93,6 +93,10 @@ default collate utf8_general_ci;
 )default charset = utf8;
  ```
  
+ ## Adcionar constraints nem colunas criadas
+ 
+ `ALTER TABLE ... ADD CONSTRAINT`
+ 
  ***
  ![image](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white) 
  
