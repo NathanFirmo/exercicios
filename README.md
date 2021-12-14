@@ -25,5 +25,12 @@ Cada linguagem está separada em uma pasta, os arquivos das páginas HTML estão
  ![image](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white) 
  
  Visite o meu [LinkedIn](https://www.linkedin.com/in/nathan-de-souza-silva-firmo/). 
+ 
+ ***
+> Project status: Doing :heavy_check_mark:
+
+ ![image](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white) 
+ 
+See my [LinkedIn](https://www.linkedin.com/in/nathan-de-souza-silva-firmo/). 
 
 
