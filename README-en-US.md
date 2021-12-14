@@ -1,4 +1,4 @@
- # **Exercícios**
+ # **Exercises**
 
 - Ver em [Português 🇧🇷](./README.md).
  
