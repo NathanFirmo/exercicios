@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;500;700&display=swap');
+
+@font-face {
+    font-family: 'Great Vibes';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Great Vibes'), url('../fonts/great-vibes.regular.woff') format('woff');
+}
+
+* {
+    --pink: #F23568;
+    --blue: #BDF2E8;
+    --beige: #F2E394;
+    --yellow: #F2C029;
+    --lightpink: #F2A488;
+
+    font-size: 62.5%;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 30px 60px;
+    color: var(--pink);
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 20px 80px;
+    color: var(--pink);
+}
+
+p {
+    font-size: 1.6rem;
+    margin: 20px 80px;
+}
+
+.topHeader {
+    background-color: var(--lightpink);
+    height: 60px;
+    display: flex;
+    display: none;
+}
+
+footer {
+    background-color: var(--lightpink);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    position: relative;
+    bottom: -40px;
+    z-index: -1;
+}
+
+.logo {
+    width: 150px;
+    border-radius: 75px;
+    border: solid 1px;
+    display: none;
+}
+
+.handwritingLogo {
+    font-family: Great Vibes, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--pink);
+    font-size: 10rem;
+    font-weight: bold;
+    max-width: max-content;
+    text-shadow: 0 0 10px white;
+}
+
+.sansSerifLogo {
+    font-family: 'Baloo Tammudu 2', 'Open Sans', 'Helvetica Neue', sans-serif;
+    ;
+    color: var(--pink);
+    font-size: 5.5rem;
+    font-weight: lighter;
+    max-width: fit-content;
+    margin: 0 auto;
+    text-shadow: 0 0 10px white;
+}
+
+.containerLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../images/background.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.containerLogo>div {
+    margin: auto;
+}
+
+.socialMediaLogo {
+    width: 60px;
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+
+}
+
+.flex {
+    display: flex;
+    align-content: center;
+
+}
+
+.flex div p:nth-of-type(1) {
+    max-width: 90vh;
+}
+
+.slider {
+    list-style: none;
+    display: block;
+    width: 500px;
+    height: 300px;
+    margin: 70px auto;
+    border: 3px solid #F23568;
+    border-radius: 0px 25px 0px 25px;
+    box-shadow: 0px 0px 15px rgba(242, 53, 103, 0.5);
+}
+
+.slider img {
+    height: 30rem;
+    margin: auto;
+    display: flex;
+    position: relative;
+    top: -100px;
+    z-index: -10;
+    border-radius: 0px 25px 0px 25px;
+}
+
+.rightArrow {
+    background-image: url(../images/seta.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: calc(50% - 25px);
+    left: calc(100% - 60px);
+    border: none;
+    background-color: transparent;
+}
+
+.leftArrow {
+    background-image: url(../images/seta.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: calc(50% - 75px);
+    left: 10px;
+    transform: rotate(180deg);
+    border: none;
+    background-color: transparent;
+    z-index: 5;
+
+}
+
+.item {
+    display: none;
+}
+
+#item1 {
+    display: block;
+}
+
+.item div {
+    position: relative;
+    justify-self: center;
+    margin: 0 auto;
+    bottom: 180px;
+    width: fit-content;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 1px;
+}
+
+.item div h2 {
+    margin: 10px 10px;
+}
+
+.item div p {
+    margin: 10px 10px;
+}
+
+.circleImg {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+
+
+.flex:nth-of-type(3),
+.flex:nth-of-type(4),
+.flex:nth-of-type(5),
+.flex:nth-of-type(6) {
+    margin: 30px auto;
+}
+
+.flex:nth-of-type(odd) {
+    flex-direction: row-reverse;
+}
+
+.flex:nth-of-type(2) {
+    justify-content: center;
+}
+
+.flex:nth-of-type(2) div {
+    margin: 30px auto;
+
+}
+
+.deliveryLogo {
+    height: 75px;
+    margin: 0 40px;
+    filter: grayscale(1);
+}
+
+.flex>div {
+    margin: 15px auto;
+}
+
+.deliveryLogo:hover {
+    filter: grayscale(0);
+}
+
+@media (max-width: 800px) {
+    .flex:nth-of-type(even),
+    .flex:nth-of-type(odd) {
+        flex-direction: column;
+    }
+
+    .flex img {
+        margin: 0 auto;
+    }
+
+    img.deliveryLogo {
+        margin: 0 20px;
+    }
+
+    .slider {
+        width: 70vw;
+    }
+
+    .slider img {
+        max-width: 70vw;
+    }
+
+    .handwritingLogo {
+        text-align: center;
+    }
+}
+
+@media (max-width: 400px) {
+    div.deliveryLogo div{
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "nathan-firmo",
+  "version": "1.0.0",
+  "description": "- See in [English 🇬🇧](./README-en-US.md).",
+  "main": "index.js",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathanFirmo/nathan-firmo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NathanFirmo/nathan-firmo/issues"
+  },
+  "homepage": "https://github.com/NathanFirmo/nathan-firmo#readme",
+  "dependencies": {
+    "dotenv": "^9.0.2",
+    "nodemailer": "^6.6.0",
+    "vercel": "^22.0.1"
+  },
+  "devDependencies": {}
+}
