@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(35, 236, 186);
+}
+
+header h1 {
+  margin: 30px auto;
+  max-width: fit-content;
+}
+
+ul.container {
+  background-color: white;
+  padding: 20px;
+  max-width: 300px;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+ul.container li {
+  list-style: none;
+  margin: 0 15px;
+}
