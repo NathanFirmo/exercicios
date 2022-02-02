@@ -1,0 +1,10 @@
+{
+  "name": "exercicios",
+  "version": "1.0.0",
+  "description": "Meu repositorio de execicios",
+  "main": "index.js",
+  "repository": "https://github.com/NathanFirmo/exercicios.git",
+  "author": "NathanFirmo <nathanssfirmo@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
