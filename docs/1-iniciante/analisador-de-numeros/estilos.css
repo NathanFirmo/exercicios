@@ -1,43 +1,42 @@
-body{
-    background-color: rgb(89, 223, 223);
-font: normal 15pt Arial;
+body {
+  background-color: rgb(89, 223, 223);
+  font: normal 15pt Arial;
 }
-header{
-text-align: center;
-color: white;
+header {
+  text-align: center;
+  color: white;
 }
-section{
-margin: auto;
-max-width: 500px;
-background-color: white;
-border-radius: 10px;
-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
-padding: 10px;
+section {
+  margin: auto;
+  max-width: 500px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  padding: 10px;
 }
-div{
-    padding-left: 15px;
-    padding-right: 15px;
+div {
+  padding-left: 15px;
+  padding-right: 15px;
 }
-footer{
-    color: white;
-    text-align: center;
+footer {
+  color: white;
+  text-align: center;
 }
-input#botaoanalisar{
+input#botaoanalisar {
   border-radius: 10px;
 }
-div#numeros{
-    text-align: center;
-    padding-top: 20px;
+div#numeros {
+  text-align: center;
+  padding-top: 20px;
 }
-div.botaoanalisar{
-    text-align: center;
-    padding-top: 10px;
+div.botaoanalisar {
+  text-align: center;
+  padding-top: 10px;
 }
-div#adicione{
-padding: 20px;
+div#adicione {
+  padding: 20px;
 }
 
-div#res{
-    padding-top: 20px;
-
+div#res {
+  padding-top: 20px;
 }

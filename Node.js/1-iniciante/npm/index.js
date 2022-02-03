@@ -1,4 +1,4 @@
-console.log('Rodando via script')
+console.log("Rodando via script");
 
 /*
 INSTALAR PACOTE DE MANEIRA GLOBAL

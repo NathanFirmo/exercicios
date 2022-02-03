@@ -1,121 +1,117 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Roboto:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Roboto:wght@100&display=swap");
 
 body {
-    font: normal 16px Arial;
-    background-color: #4dd1d1;
+  font: normal 16px Arial;
+  background-color: #4dd1d1;
 }
 
 header {
-    text-align: center;
+  text-align: center;
 }
 
 section {
-    font: normal 1.1em Nunito Sans;
-    padding: 40px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px #0000006b;
-    background-color: blanchedalmond;
-    max-width: 800px;
-    margin: auto;
-    text-align: justify;
+  font: normal 1.1em Nunito Sans;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #0000006b;
+  background-color: blanchedalmond;
+  max-width: 800px;
+  margin: auto;
+  text-align: justify;
 }
 
 h1 {
-    color: #000;
-    font: bold 2em Arial;
+  color: #000;
+  font: bold 2em Arial;
 }
 
 h2 {
-    color: #000000;
-    font: bold 1.5em Roboto;
-    text-align: center;
+  color: #000000;
+  font: bold 1.5em Roboto;
+  text-align: center;
 }
 
 footer {
-    text-align: center;
-    color: white;
-    text-shadow: 2px 2px 2px #00000038;
-    font: bold 1em Arial;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 2px #00000038;
+  font: bold 1em Arial;
 }
 
 .img {
-    width: 80%;
-    margin-left: 3%;
+  width: 80%;
+  margin-left: 3%;
 }
-iframe{
-    width: 90%;
-margin-left: 5%;
+iframe {
+  width: 90%;
+  margin-left: 5%;
 }
-.video{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "a";
+.video {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "a";
+}
+.video > video {
+  grid-area: a;
+  justify-self: center;
+}
 
+#audio {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "audio";
 }
-.video > video{
-    grid-area: a;
-    justify-self: center;
-}
-
-#audio{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "audio";
-}
-#audio > audio{
-    grid-area: audio;
-    justify-self: center;
+#audio > audio {
+  grid-area: audio;
+  justify-self: center;
 }
 
 div#code {
-    background-color: #000000;
-    border-radius: 10px;
-    border-color: #22c46b;
-    border-spacing: 2px;
-    border-style: solid;
-    padding: 10px;
+  background-color: #000000;
+  border-radius: 10px;
+  border-color: #22c46b;
+  border-spacing: 2px;
+  border-style: solid;
+  padding: 10px;
 }
 
 code {
-    color: #22c46b;
-    font-size: 1.2em;
+  color: #22c46b;
+  font-size: 1.2em;
 }
 
 @media (max-width: 800px) {
-    /*
+  /*
     A tag media permite que a gente coloque uma condição para que 
     o estilo seja aplicado. Neste caso, o estilo só é aplicado se a largura da viewport for menor que 800px.
     */
-
 }
 
 @media (max-width: 500px) {
-    code {
-        font-size: 0.9em;
-    }
+  code {
+    font-size: 0.9em;
+  }
 }
 
 @media (max-width: 450px) {
-    code {
-        font-size: 0.8em;
-    }
+  code {
+    font-size: 0.8em;
+  }
 }
 
 @media (max-width: 400px) {
-    code {
-        font-size: 0.7em;
-    }
+  code {
+    font-size: 0.7em;
+  }
 }
 
 @media (max-width: 350px) {
-    code {
-        font-size: 0.5em;
-    }
+  code {
+    font-size: 0.5em;
+  }
 }
-
-
 
 /*
 text-indent: 10px; Esse parâmetro indenta o início do parágrafo.

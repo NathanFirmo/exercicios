@@ -1,53 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Roboto:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Roboto:wght@100&display=swap");
 
 /*
 text-indent: 10px; Esse parâmetro indenta o início do parágrafo.
 */
 
-* { /*configurações globais das css*/
-    /* height: 100%;*/
-     font: normal 1.1em Nunito Sans, sans-serif; 
- }
- body{
-     background-image: linear-gradient(45deg, #38bff5dc, #2c95bedc, #247a9cdc);
-     background-attachment: fixed;
-     /*text-align: justify;*/
- }
+* {
+  /*configurações globais das css*/
+  /* height: 100%;*/
+  font: normal 1.1em Nunito Sans, sans-serif;
+}
+body {
+  background-image: linear-gradient(45deg, #38bff5dc, #2c95bedc, #247a9cdc);
+  background-attachment: fixed;
+  /*text-align: justify;*/
+}
 
 /*body{
     font: normal 16px Arial;
     background-color: rgb(77, 209, 209);
 }*/
-header{
-    text-align: center;
+header {
+  text-align: center;
 }
-section{
-    font: normal 1em Nunito Sans;
-    padding: 40px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px #0000006b;
-    background-color: blanchedalmond;
-    max-width: 800px;
-    margin: auto;
+section {
+  font: normal 1em Nunito Sans;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #0000006b;
+  background-color: blanchedalmond;
+  max-width: 800px;
+  margin: auto;
 }
-h1{
-    color: white;
-    text-shadow: 2px 2px 2px #00000038;
-    font: bold 2em Arial;
+h1 {
+  color: white;
+  text-shadow: 2px 2px 2px #00000038;
+  font: bold 2em Arial;
 }
-h2{
-    color: #000000;
-    font: bold 1.5em Roboto;
-    text-align: center;
+h2 {
+  color: #000000;
+  font: bold 1.5em Roboto;
+  text-align: center;
 }
-footer{
-    text-align: center;
-    color: white;
-    text-shadow: 2px 2px 2px #00000038;
-    font: bold 1em Arial;
+footer {
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 2px #00000038;
+  font: bold 1em Arial;
 }
-img#foto{
-    max-width: 800px;
-    margin: auto;
+img#foto {
+  max-width: 800px;
+  margin: auto;
 }
-
