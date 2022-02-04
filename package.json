@@ -2,6 +2,7 @@
   "name": "exercicios",
   "version": "1.0.0",
   "description": "Meu repositorio de execicios",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "test": "jest"
@@ -12,5 +13,8 @@
   "private": false,
   "devDependencies": {
     "jest": "^27.4.7"
+  },
+  "dependencies": {
+    "axios": "^0.25.0"
   }
 }
